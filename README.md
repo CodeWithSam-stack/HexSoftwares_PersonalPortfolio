@@ -71,7 +71,6 @@ Used to add interactivity and dynamic functionality, such as:
 
 ```text
 HexSoftwares_PersonalPortfolio/
-│
 ├── index.html
 ├── style.css
 ├── script.js
