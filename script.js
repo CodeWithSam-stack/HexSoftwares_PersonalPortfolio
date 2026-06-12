@@ -1,7 +1,3 @@
-// =========================
-// SCROLL ANIMATION
-// =========================
-
 const elements = document.querySelectorAll(
     "section, .hero, .stats"
 );
@@ -23,9 +19,6 @@ const observer = new IntersectionObserver((entries) => {
 elements.forEach(el => observer.observe(el));
 
 
-// =========================
-// ACTIVE NAVBAR LINK
-// =========================
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav ul li a");
@@ -56,10 +49,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-
-// =========================
-// BUTTON RIPPLE EFFECT
-// =========================
 
 const buttons = document.querySelectorAll(".btn");
 
@@ -100,10 +89,6 @@ buttons.forEach(button => {
 });
 
 
-// =========================
-// HERO IMAGE HOVER EFFECT
-// =========================
-
 const heroImage = document.querySelector(".hero-image img");
 
 if (heroImage) {
@@ -120,10 +105,6 @@ if (heroImage) {
 }
 
 
-// =========================
-// CERTIFICATE CARD EFFECT
-// =========================
-
 const certCards = document.querySelectorAll(".cert-card");
 
 certCards.forEach(card => {
@@ -139,9 +120,6 @@ certCards.forEach(card => {
 });
 
 
-// =========================
-// SMOOTH PAGE LOAD EFFECT
-// =========================
 
 window.addEventListener("load", () => {
 
